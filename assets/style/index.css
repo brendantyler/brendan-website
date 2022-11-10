@@ -16,6 +16,13 @@ body{
 li {
   list-style: none;
 }
+/*For sticky nav*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
 
 /*Nav Bar*/
 .container{
@@ -39,7 +46,6 @@ li {
   font-weight: bolder;
   font-size: 25px;
 }
-
 .separate-nav a{
   font-size: 25px;
   float: right;
@@ -78,21 +84,28 @@ img{
 
 /*about page*/
 .about {
-  height: 40em;
-  background-color: #151515;
+  height: 60em;
+  background: rgb(21,21,21);
+  background: linear-gradient(0deg, rgba(21,21,21,1) 0%, rgba(57,57,57,1) 55%, rgba(74,74,74,1) 100%);
   width: 100%;
 
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
 .about div{
-  margin: auto;
+  margin: 5rem;
   height: 20em;
   width: 20em;
 }
 
+.about-text {
+  padding:15px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
 
 .rotate {
   animation: rotation 15s infinite linear;
@@ -106,4 +119,30 @@ img{
   }
 }
 
+/*Contact page*/
+.contact{
+  padding: 0%;
+  background: rgb(32,34,0);
+  background: linear-gradient(90deg, rgba(32,34,0,1) 0%, rgba(0,23,34,1) 100%);
+  height: 50rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.contact-text{
+  background-color: #ffffff;
+  border-radius: 1rem;
+  width: 60%;
+  height: 40%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.socials img{
+  margin: 15px;
+  height: 40px;
+  width: 40px;
+}
 
