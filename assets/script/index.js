@@ -1,6 +1,6 @@
 let navBar = document.getElementById("navi");
 
-window.onscroll() {
+window.onscroll() = function() {
   navSticky()
 };
 
@@ -12,5 +12,5 @@ function navSticky() {
   } else {
     navBar.classList.remove('sticky')
   }
-}
+};
 
