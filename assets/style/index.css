@@ -11,18 +11,20 @@
 body{
   background-color: var(--app-white);
   font-family: 'Source Sans Pro', sans-serif;
-  color: #ffffff;
+  color: #000000;
 }
 
 li {
   list-style: none;
 }
-.nav{
+.container{
+  height: 60px;
   width: 100%;
   background-color: rgb(65, 70, 213);
   overflow: hidden;
 }
 .topnav {
+  height: 48px;
   margin-left: auto;
   margin: auto;
   width: 75%;
@@ -41,4 +43,32 @@ li {
   font-size: 25px;
   float: right;
   font-weight: bold;
+}
+
+img{
+  width: 100%;
+  height: 50%;
+}
+.hero-image{
+  position: relative;
+  text-align: center;
+  font-size:  ;
+}
+
+.hero-text{
+  width: 80%;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+}
+.centered {
+  margin-top: 5em;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border-radius: 4px;
 }
