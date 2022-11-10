@@ -1,0 +1,44 @@
+:root{
+  --app-bg-dark: #223342;
+  --app-white: #ffffff;
+  --app-red: #ff3c57;
+  --app-green: #33ab4e;
+  --app-blue: #3c57ff;
+  --app-purple: #833cff;
+  --app-orange: #ff833c;
+}
+
+body{
+  background-color: var(--app-white);
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+}
+
+li {
+  list-style: none;
+}
+.nav{
+  width: 100%;
+  background-color: rgb(65, 70, 213);
+  overflow: hidden;
+}
+.topnav {
+  margin-left: auto;
+  margin: auto;
+  width: 75%;
+}
+.topnav a {
+  float: left;
+  color: #0d0808;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.separate-nav a{
+  font-size: 25px;
+  float: right;
+  font-weight: bold;
+}
