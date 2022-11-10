@@ -22,8 +22,6 @@ li {
   top: 0;
   width: 100%
 }
-
-
 /*Nav Bar*/
 .container{
   height: 60px;
@@ -45,6 +43,9 @@ li {
   text-decoration: none;
   font-weight: bolder;
   font-size: 25px;
+}
+.topnav a:onclick{
+  background-color: aliceblue;
 }
 .separate-nav a{
   font-size: 25px;
