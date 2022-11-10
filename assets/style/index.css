@@ -21,7 +21,8 @@ section {
   position: relative
 }
 
-/*For sticky nav*/
+
+
 .container{
   position: fixed;
   top: 0px;
@@ -151,4 +152,55 @@ img{
   height: 40px;
   width: 40px;
 }
+
+
+
+@media screen and (max-width: 740px) {
+  .content {
+      width: 100%;
+  }
+  .title {
+    visibility: hidden;
+    width: 1px;
+  }
+  .separate-nav {
+    transform: translate(-40px)
+  }
+}
+
+
+
+@media screen and (max-width: 450px) {
+  .content {
+      width: 100%;
+  }
+  .title {
+    visibility: hidden;
+    width: 1px;
+  }
+  .separate-nav {
+    transform: translate(-40px)
+  }
+  .about{
+    height: auto;
+    width: auto;
+  }
+  .about img{
+    width: auto;
+    height: auto;
+  }
+  .about div {
+    flex-direction: column;
+    width: 30rem;
+    height: 30rem;
+  }
+  .contact-text {
+    height: 25rem;
+    width: 20rem;
+  }
+}
+
+
+
+
 
